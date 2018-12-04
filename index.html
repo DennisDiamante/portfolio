@@ -1,20 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 	<title>Developer Portfolio - Dennis Cortez Diamante</title>
-	<link href="assets/styles/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-	<div id="container">
-		<img src="assets/images/me2.jpg" class="me">
-		<h1>DENNIS C. DIAMANTE</h1>
-		<h2>FULL STACK WEB DEVELOPER</h2>
-		<p class="bio">
-			Dennis C. Diamante will be one of the best full stack developer in the Philippines by 2020.	Without basic knowledge on programming, he enrolled himself into a 6-month web development training. With the never ending help and support from the instructors and his co-trainees, he finished the training in Top 3. He pursued his passion on web development since then. His goal is to be on top of the industry. 
-		</p>
-	</div>
-	
+	<div id="container-container">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">DENNIS C. DIAMANTE</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">ABOUT ME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">PORTFOLIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SERVICES</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							PROJECTS
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Capstone 1</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Capstone 2</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Capstone 3</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Other Projects</a>
+							<div class="dropdown-divider"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="jumbotron text-center">
+		
+			<h1 class="display-3">Dennis C. Diamante</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 text-center">
+				<!-- <img src="assets/images/me2.jpg" class="rounded-circle"> -->
+			</div>
+			<div class="col-lg-6">
+				<h2>About Me</h2>
+				<p>Dennis C. Diamante will be one of the best full stack developer in the Philippines by 2020.	Without basic knowledge on programming, he enrolled himself into a 6-month web development training. With the never ending help and support from the instructors and his co-trainees, he finished the training in Top 3. He pursued his passion on web development since then. His goal is to be on top of the industry. </p>
+			</div>
+		</div>
+		<div class="row" id="Portfolio">
+			<div class="col-lg-12 text-center">
+				<h2>Projects</h2>
+			</div>
+			<div class="col-lg-12">
+			<div class="col-lg-3">
+				<h3>capstone 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia alias laudantium placeat, quidem possimus. Doloribus obcaecati, similique consequatur sit excepturi, aliquid porro placeat cum odit illum quis quidem sint!</p>
+			</div>
+			<div class="col-lg-3">
+				<h3>capstone 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia alias laudantium placeat, quidem possimus. Doloribus obcaecati, similique consequatur sit excepturi, aliquid porro placeat cum odit illum quis quidem sint!</p>
+			</div>
+			<div class="col-lg-3">
+				<h3>capstone 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia alias laudantium placeat, quidem possimus. Doloribus obcaecati, similique consequatur sit excepturi, aliquid porro placeat cum odit illum quis quidem sint!</p>
+			</div>
+			<div class="col-lg-3">
+				<h3>Other Projects</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia alias laudantium placeat, quidem possimus. Doloribus obcaecati, similique consequatur sit excepturi, aliquid porro placeat cum odit illum quis quidem sint!</p>
+			</div>
+			</div>
+			<!-- <div class="row" id="services">
+				<div class="col-lg-12"><h2>Services</h2></div>
+				<div class="col-lg-4"><h3>Service 1</h3></div>
+				<div class="col-lg-4"><h3>Service 2</h3></div>
+				<div class="col-lg-4"><h3>Service 3</h3></div>
+			</div>
+			 -->
+		</div>
+	<!-- 	<img src="assets/images/me2.jpg" class="me">
+	<h1>DENNIS C. DIAMANTE</h1>
+	<h2>FULL STACK WEB DEVELOPER</h2>
+	<p class="bio">
+		Dennis C. Diamante will be one of the best full stack developer in the Philippines by 2020.	Without basic knowledge on programming, he enrolled himself into a 6-month web development training. With the never ending help and support from the instructors and his co-trainees, he finished the training in Top 3. He pursued his passion on web development since then. His goal is to be on top of the industry. 
+	</p>
+		</div>
+		 -->
 
 
 
