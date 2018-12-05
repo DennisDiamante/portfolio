@@ -40,3 +40,93 @@ h2{
 	margin: 0 auto;
 	text-align: center;
 } */
+
+#navbar{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+#banner{
+	position: relative;
+	height: 100vh;
+
+}
+
+#dcd{
+	font-size: 10em;
+
+}
+
+#banner-p{
+
+}
+
+#banner-2{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#scroll-down{
+	position: relative;
+	top: 60%;
+}
+
+#about-dcd{
+	height: 100vh;
+}
+
+#about-me{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: justify;
+}
+
+#portfolio{
+	height: 100vh;
+}
+
+#portfolio-h2{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#carouselExampleIndicators{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+.d-block{
+	max-height: 40%;
+
+} 
+
+#services{
+	height: 100vh;
+}
+
+#services-h2{
+	position: relative;
+	top:30%;
+}
+
+#contact{
+	height: 100vh;
+}
+
+#contact-h2{
+	position: relative;
+	top: 20%;
+}
+
+#map{
+	position: relative;
+	top: -25%;
+}
