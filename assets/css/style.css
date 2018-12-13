@@ -72,7 +72,7 @@ h2{
 
 #scroll-down{
 	position: relative;
-	top: 60%;
+	top: 55%;
 }
 
 #about-dcd{
@@ -103,6 +103,19 @@ h2{
 
 }
 
+.carousel-img-custom{
+	height: 50vh;
+}
+
+#btn-box{
+	background-color: gold;
+
+}
+
+#portfolio-anchor{
+	text-decoration: none;
+	color: black;
+}
 .d-block{
 	max-height: 40%;
 
